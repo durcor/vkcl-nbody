@@ -37,11 +37,17 @@ meson configure build -Denable_debug=true -Denable_test=true
 ## Tony's N-Body Test
 
 ### Some N-Body Calculation Benchmarks
-- 5700XT w/ RADV/LLVM - 18.18 FPS
+- 6950XT w/ RADV/ACO - 41.68 FPS
+- 5700XT w/ RADV/LLVM - 18.52 FPS
 - 5700XT w/ RADV/ACO - 17.54 FPS
+- 6600XT w/ RADV/ACO - 17.54 FPS
 - 5700XT w/ AMDVLK - 11.36 FPS
 - 5700XT w/ AMDVLK-PRO - 2.35 FPS
-- 2060S - ~2 FPS
+- 2060S - ~2 FPS?
+- Vega10 w/ RADV/ACO - 1.26 FPS
+- Vega10 w/ RADV/LLVM - 1.25 FPS
+- Vega10 w/ AMDVLK - 0.99 FPS
+- Vega10 w/ AMDVLK-PRO - 0.46 FPS
 
 ## License
 [Simplified BSD License](LICENSE)
